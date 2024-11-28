@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes for Cause</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+        h1 {
+            background-color:#0AA3CF;
+            color: black;
+            padding: 15px 0;
+            text-align:left;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            color: white;
+            background-color: #0AA3CF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+         form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+        input[type="submit"] {
+            background-color: #0AA3CF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0AA3CF; /* Light blue */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:600px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f5e050; /* Yellow highlight */
+}
+
+    </style>
+</head>
+<body>
+       <nav class="navbar">
+        <div class="logo">Clothing Donation</div>
+        <ul class="nav-links">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+	    <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- Volunteer Section -->
+        <div class="section">
+            <h2>Volunteer With Us</h2>
+            <p>Join our mission to make a difference by volunteering your time to help collect, sort, and distribute clothes for those in need.</p>
+            <a href="volunteerform.html" class="button">Sign Up to Volunteer</a>
+        </div>
+</div>
+</body>
+</html>
