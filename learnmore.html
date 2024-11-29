@@ -7,11 +7,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.8;
-            margin: 40px;
-            padding: 20px;
+           
             background-color:#e3f2fd;
             color: #333;
+	margin-left:0px;
+	margin-right:0px;
         }
         .about-container {
             max-width: 100%;
@@ -20,6 +20,8 @@
             background: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+	margin-left:100px;
+	margin-right:100px;
         }
         h1 {
             text-align: center;
@@ -37,9 +39,60 @@
             font-size: 16px;
         }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0AA3CF; /* Light blue */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:600px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f5e050; /* Yellow highlight */
+}
+
+
+
+
+
 	            </style>
 </head>
 <body>
+ <nav class="navbar">
+        <div class="logo">Clothing Donation</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+	  <li>
+            <a href="gallery.html"><b>Gallery</b></a>
+          </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
     <div class="about-container">
         <h1>About Us</h1>
         <p>
@@ -53,7 +106,7 @@ Our initiative thrives on the principle of community. We partner with organizati
 Sustainability and impact are at the heart of what we do. By redirecting unused clothing from landfills to meaningful purposes, we address both environmental and social challenges. Each contribution to Clothes for Cause not only reduces waste but also contributes to empowering underserved communities. This dual impact underscores our commitment to building a future where giving back is as seamless as choosing what to wear.
 </p>
 <p>
-We are more than a clothing organization; we are a movement for change. At Clothes for Cause, we invite you to join us in making a difference—one act of kindness, one article of clothing, and one life at a time. Together, we can turn compassion into empowerment and create a world where everyone has the opportunity to thrive.
+We are more than a clothing organization; we are a movement for change. At Clothes for Cause, we invite you to join us in making a difference one act of kindness, one article of clothing, and one life at a time. Together, we can turn compassion into empowerment and create a world where everyone has the opportunity to thrive.
 </p>
 </body>
 </html>

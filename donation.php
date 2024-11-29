@@ -43,7 +43,7 @@ $flag=false;
 echo "Please Enter Mobile in Given Format"; 
 } 
 else if($flag==true) { 
-echo "Thank you for your Donation"; 
+echo "<h1>Thank you for your Donation</h1>"; 
 } 
 $sql="insert into Donation_Details (Full_Name,Phone_Number,Address,Clothes_Description )values('$fn','$mob','$address1','$des')";
 if(mysqli_query($conn,$sql))

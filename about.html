@@ -6,20 +6,22 @@
     <title>About Us - Clothes for Cause</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.8;
-            margin: 40px;
-            padding: 20px;
+           
             background-color:#e3f2fd;
-            color: #333;
+            width:100%;
+		margin-left:0px;
+		margin-right:0px;
         }
-	        .about-container {
-            max-width: 100%;
+        .about-container {
+                 max-width: 100%;
             margin: 50px auto;
             padding: 40px;
             background: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:100px;
         }
         h1 {
             text-align: center;
@@ -29,13 +31,14 @@
 	    text-color:white;
             margin: 15px 0;
         }
-		input[type="submit"] {
-            background-color: #0AA3CF;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
+        .highlight {
+            font-weight: bold;
+            color: #0073e6;
         }
+	.highlight
+	{
+		color:cyan;
+	}
 /* Navbar Styling */
 .navbar {
     display: flex;
@@ -74,20 +77,25 @@
 .nav-links a:hover {
     color: pink; /* Yellow highlight */
 }
+  
 
-	            </style>
+    </style>
 </head>
 <body>
-<form action="learnmore.html">
-<nav class="navbar">
+
+ <nav class="navbar">
         <div class="logo">Clothing Donation</div>
         <ul class="nav-links">
-            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-	    <li><a href="gallery.html">Gallery</a></li>
+	  <li>
+            <a href="gallery.html"><b>Gallery</b></a>
+          </li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+
     <div class="about-container">
         <h1>About Us</h1>
         <p>
@@ -98,10 +106,9 @@ At Clothes for Cause, we believe in the transformative power of giving. Our miss
 Our initiative thrives on the principle of community. We partner with organizations, businesses, and compassionate individuals who share our vision of a more inclusive world. Through donations, fundraising campaigns, and sustainable practices, we bridge the gap between surplus and scarcity. Every piece of clothing we collect is meticulously sorted and distributed, ensuring it finds a home where it’s most needed, whether it's for a child seeking warmth, a professional preparing for an interview, or a family rebuilding after hardship.
 </p>
 <div id="learn" align="center">
-<input type="submit" value="Learn More">
+<a href="learnmore.html" >Learn More </a>
 </div>
 </div>
-</form>
 
 </body>
 </html>
